@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	padding: 5px;
+	background-color: #dddddd;
+}
+.header {
+	padding: 10px 10px;
+	background-color: #4682B4;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.fevicon img {
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+.container {
+	width: 300px;
+	background-color: #ffffff;
+	padding-bottom: 5px;
+}
+.container span {
+	vertical-align: top;
+}
+.label {
+	width: 85px;
+	display: inline-flex;
+	padding: 10px;
+}
+.input {
+	width: 60px;
+	display: inline-flex;
+	padding: 15px 10px 10px 10px;
+}
+.button {
+	display: inline-flex;
+	padding: 0px 10px 0px 10px;
+}
+.container img#mark {
+	padding: 5px;
+	width: 70px;
+	height: 32px;
+	margin: 3px;
+	cursor: pointer;
+}
+#message {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #DC143C;
+	border-left: 3px solid #DC143C;
+	color: #DC143C;
+	background-color: #FFFFE0;
+}
+#time {
+	padding-left: 3px;
+}

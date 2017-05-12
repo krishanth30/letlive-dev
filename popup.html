@@ -1,0 +1,34 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+	<head>
+		<meta name="viewport" content="width=100px, initial-scale=1">
+		<title>Let Live</title>
+		<script src="jquery.min.js"></script>
+		<script src="popup.js"></script>
+		<link rel="stylesheet" type="text/css" href="extension.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<span class="fevicon">
+				<img src="icon.png" />
+			</span>
+			<span class="name">Let Live</span>
+		</div>
+		<div class="container">
+			<span class="label">Minutes before timeout</span>
+			<span class="input">
+				<input id="time" type="text" size="1" value="5"/>
+			</span>
+			<span class="button">
+				<img id="mark" />
+			</span>
+			<div id="message"></div>
+		</div>
+	</body>
+</html>
+
